@@ -1,5 +1,6 @@
 import time
 import pandas
+import matplotlib
 from colorama import init, Fore, Back, Style
 
 #fdsd
@@ -14,11 +15,13 @@ def console_picture():
     print("         **    **  ********  ********  ********       **      ")
 console_picture()
 
+
 def calculate_total_price(apples):
     total_price = 0
     for price in apples.values():
         total_price += int(price)
     return total_price
+
 
 """def draw_apple_outline():
     print("   ********^^*")

@@ -1,7 +1,6 @@
 import time
 from colorama import init, Fore, Back, Style
 
-init()
 
 def console_picture():
     print(Style.BRIGHT + Fore.YELLOW)
@@ -12,9 +11,8 @@ def console_picture():
     print("            **    **  **        **        **         **      **  ")
     print("           **    **  ********  ********  ********    **    **   ")
     print("          **    **  ********  ********  ********       **      ")
-
 console_picture()
-input()
+
 
 def calculate_total_price(apples):
     total_price = 0
@@ -62,7 +60,6 @@ print("Загрузка данных завершена.")
 print("Напишите пароль содержащий цифры сумма которых даст 13:")
 prol = 1
 mam = 0
-
 while prol != 13:
     stree = str(input())
     for i in range(0,len(stree)):

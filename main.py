@@ -1,4 +1,5 @@
 import time
+import pandas
 from colorama import init, Fore, Back, Style
 
 #fdsd
